@@ -8,15 +8,16 @@
 
 This repository serves as my Power BI portfolio — each folder contains a self-contained project with the `.pbix` file, the underlying dataset, a dashboard screenshot, and a detailed README explaining the analysis, key metrics, and insights.
 
-Projects span HR analytics, and will grow to cover finance, sales, operations, and more.
+Projects span HR analytics, live API integrations, and will grow to cover finance, sales, operations, and more.
 
 ---
 
 ## Projects
 
-| # | Project | Domain | Dataset | Key Focus |
+| # | Project | Domain | Data Source | Key Focus |
 |---|---|---|---|---|
-| 01 | [HR Analytics Dashboard](./HR%20Analytics/) | Human Resources | 1,480 employees · 39 features | Attrition analysis, workforce demographics, engagement & risk scoring |
+| 01 | [HR Analytics Dashboard](./HR%20Analytics/) | Human Resources | CSV · 1,480 employees · 39 features | Attrition analysis, workforce demographics, engagement & risk scoring |
+| 02 | [Pakistan Weather Dashboard](./Weather%20Dashboard/) | Weather / API Integration | OpenWeatherMap API · 20 cities · 5-day forecast | Live REST API ingestion, real-time conditions, geospatial map, forecast trends |
 
 ---
 
@@ -31,6 +32,11 @@ Power-BI-Files/
 │   ├── HR Analytics.jpeg       ← Dashboard screenshot
 │   └── README.md               ← Project documentation
 │
+├── Weather Dashboard/
+│   ├── Weather Dashboard.pbix  ← Power BI report file (live API connected)
+│   ├── weather_dashboard.png   ← Dashboard screenshot
+│   └── README.md               ← Project documentation
+│
 └── README.md                   ← This file
 ```
 
@@ -39,9 +45,10 @@ Power-BI-Files/
 ## Skills Demonstrated
 
 - **Data Modelling** — star schema design, relationships, calculated columns
-- **DAX** — custom measures for KPIs, attrition rates, segment scoring, running totals
+- **DAX** — custom measures, dynamic SVG icon generation, KPI calculations
+- **Power Query (M)** — REST API integration, parameterised web calls, list iteration, in-query data transformation
 - **Report Design** — multi-section dashboards with consistent theming, interactive slicers, and conditional formatting
-- **Storytelling** — translating raw HR data into actionable business insights for non-technical stakeholders
+- **Storytelling** — translating raw data into clear, actionable insights for non-technical stakeholders
 
 ---
 
@@ -50,9 +57,11 @@ Power-BI-Files/
 | Tool | Purpose |
 |---|---|
 | Power BI Desktop | Report authoring and data modelling |
-| DAX | Custom calculations and KPI measures |
-| Power Query (M) | Data transformation and cleaning |
-| CSV / Excel | Data sources |
+| DAX | Custom calculations, KPI measures, dynamic visuals |
+| Power Query (M) | Data transformation, REST API calls, star schema construction |
+| OpenWeatherMap API | Live weather forecast data source |
+| Azure Maps | Geospatial city visualisation |
+| CSV / Excel | Flat-file data sources |
 
 ---
 
