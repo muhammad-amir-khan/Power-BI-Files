@@ -76,5 +76,5 @@ Power-BI-Files/
 ## Contact
 
 **Muhammad Amir Khan**  
-📧 alaudin.khan1997@gmail.com  
+📧 kamir6132@gmail.com
 🔗 [GitHub](https://github.com/muhammad-amir-khan)
